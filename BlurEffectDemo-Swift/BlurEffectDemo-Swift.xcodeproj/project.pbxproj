@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DBAEA4F2507742300A1D99F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBAEA4E2507742300A1D99F /* AppDelegate.swift */; };
+		2DBAEA512507742300A1D99F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBAEA502507742300A1D99F /* SceneDelegate.swift */; };
+		2DBAEA532507742300A1D99F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBAEA522507742300A1D99F /* ViewController.swift */; };
+		2DBAEA562507742300A1D99F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBAEA542507742300A1D99F /* Main.storyboard */; };
+		2DBAEA582507742500A1D99F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DBAEA572507742500A1D99F /* Assets.xcassets */; };
+		2DBAEA5B2507742500A1D99F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DBAEA592507742500A1D99F /* LaunchScreen.storyboard */; };
+		2DBAEA63250775F300A1D99F /* BlurEffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBAEA62250775F200A1D99F /* BlurEffectViewController.swift */; };
+		2DBAEA652507760900A1D99F /* VibrancyEffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBAEA642507760900A1D99F /* VibrancyEffectViewController.swift */; };
+		2DBAEA672507761D00A1D99F /* CustomBlurEffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBAEA662507761D00A1D99F /* CustomBlurEffectViewController.swift */; };
+		2DBAEA7A2507916E00A1D99F /* Frog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DBAEA772507916D00A1D99F /* Frog.jpg */; };
+		2DBAEA7B2507916E00A1D99F /* Grass Blades.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DBAEA782507916E00A1D99F /* Grass Blades.jpg */; };
+		2DBAEA7C2507916E00A1D99F /* Bristle Grass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DBAEA792507916E00A1D99F /* Bristle Grass.jpg */; };
+		2DBAEA8025079E3100A1D99F /* UIKitUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBAEA7F25079E3100A1D99F /* UIKitUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DBAEA4B2507742300A1D99F /* BlurEffectDemo-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlurEffectDemo-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBAEA4E2507742300A1D99F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DBAEA502507742300A1D99F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2DBAEA522507742300A1D99F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DBAEA552507742300A1D99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DBAEA572507742500A1D99F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DBAEA5A2507742500A1D99F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DBAEA5C2507742500A1D99F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DBAEA62250775F200A1D99F /* BlurEffectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffectViewController.swift; sourceTree = "<group>"; };
+		2DBAEA642507760900A1D99F /* VibrancyEffectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibrancyEffectViewController.swift; sourceTree = "<group>"; };
+		2DBAEA662507761D00A1D99F /* CustomBlurEffectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBlurEffectViewController.swift; sourceTree = "<group>"; };
+		2DBAEA772507916D00A1D99F /* Frog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Frog.jpg; sourceTree = "<group>"; };
+		2DBAEA782507916E00A1D99F /* Grass Blades.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Grass Blades.jpg"; sourceTree = "<group>"; };
+		2DBAEA792507916E00A1D99F /* Bristle Grass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bristle Grass.jpg"; sourceTree = "<group>"; };
+		2DBAEA7E25079E3100A1D99F /* UIKitUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitUtils.h; sourceTree = "<group>"; };
+		2DBAEA7F25079E3100A1D99F /* UIKitUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitUtils.m; sourceTree = "<group>"; };
+		2DBAEA842507A06100A1D99F /* BlurEffectDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlurEffectDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DBAEA482507742300A1D99F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DBAEA422507742300A1D99F = {
+			isa = PBXGroup;
+			children = (
+				2DBAEA4D2507742300A1D99F /* BlurEffectDemo-Swift */,
+				2DBAEA4C2507742300A1D99F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DBAEA4C2507742300A1D99F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DBAEA4B2507742300A1D99F /* BlurEffectDemo-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DBAEA4D2507742300A1D99F /* BlurEffectDemo-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				2DBAEA7D25079E3100A1D99F /* CustomBlurEffect */,
+				2DBAEA4E2507742300A1D99F /* AppDelegate.swift */,
+				2DBAEA502507742300A1D99F /* SceneDelegate.swift */,
+				2DBAEA522507742300A1D99F /* ViewController.swift */,
+				2DBAEA542507742300A1D99F /* Main.storyboard */,
+				2DBAEA572507742500A1D99F /* Assets.xcassets */,
+				2DBAEA592507742500A1D99F /* LaunchScreen.storyboard */,
+				2DBAEA5C2507742500A1D99F /* Info.plist */,
+				2DBAEA792507916E00A1D99F /* Bristle Grass.jpg */,
+				2DBAEA772507916D00A1D99F /* Frog.jpg */,
+				2DBAEA782507916E00A1D99F /* Grass Blades.jpg */,
+				2DBAEA62250775F200A1D99F /* BlurEffectViewController.swift */,
+				2DBAEA642507760900A1D99F /* VibrancyEffectViewController.swift */,
+				2DBAEA662507761D00A1D99F /* CustomBlurEffectViewController.swift */,
+				2DBAEA842507A06100A1D99F /* BlurEffectDemo-Bridging-Header.h */,
+			);
+			path = "BlurEffectDemo-Swift";
+			sourceTree = "<group>";
+		};
+		2DBAEA7D25079E3100A1D99F /* CustomBlurEffect */ = {
+			isa = PBXGroup;
+			children = (
+				2DBAEA7E25079E3100A1D99F /* UIKitUtils.h */,
+				2DBAEA7F25079E3100A1D99F /* UIKitUtils.m */,
+			);
+			path = CustomBlurEffect;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DBAEA4A2507742300A1D99F /* BlurEffectDemo-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DBAEA5F2507742500A1D99F /* Build configuration list for PBXNativeTarget "BlurEffectDemo-Swift" */;
+			buildPhases = (
+				2DBAEA472507742300A1D99F /* Sources */,
+				2DBAEA482507742300A1D99F /* Frameworks */,
+				2DBAEA492507742300A1D99F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlurEffectDemo-Swift";
+			productName = "BlurEffectDemo-Swift";
+			productReference = 2DBAEA4B2507742300A1D99F /* BlurEffectDemo-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DBAEA432507742300A1D99F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = zy;
+				TargetAttributes = {
+					2DBAEA4A2507742300A1D99F = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 2DBAEA462507742300A1D99F /* Build configuration list for PBXProject "BlurEffectDemo-Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DBAEA422507742300A1D99F;
+			productRefGroup = 2DBAEA4C2507742300A1D99F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DBAEA4A2507742300A1D99F /* BlurEffectDemo-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DBAEA492507742300A1D99F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBAEA7B2507916E00A1D99F /* Grass Blades.jpg in Resources */,
+				2DBAEA7C2507916E00A1D99F /* Bristle Grass.jpg in Resources */,
+				2DBAEA5B2507742500A1D99F /* LaunchScreen.storyboard in Resources */,
+				2DBAEA7A2507916E00A1D99F /* Frog.jpg in Resources */,
+				2DBAEA582507742500A1D99F /* Assets.xcassets in Resources */,
+				2DBAEA562507742300A1D99F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DBAEA472507742300A1D99F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DBAEA532507742300A1D99F /* ViewController.swift in Sources */,
+				2DBAEA652507760900A1D99F /* VibrancyEffectViewController.swift in Sources */,
+				2DBAEA4F2507742300A1D99F /* AppDelegate.swift in Sources */,
+				2DBAEA8025079E3100A1D99F /* UIKitUtils.m in Sources */,
+				2DBAEA672507761D00A1D99F /* CustomBlurEffectViewController.swift in Sources */,
+				2DBAEA63250775F300A1D99F /* BlurEffectViewController.swift in Sources */,
+				2DBAEA512507742300A1D99F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2DBAEA542507742300A1D99F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DBAEA552507742300A1D99F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DBAEA592507742500A1D99F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DBAEA5A2507742500A1D99F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DBAEA5D2507742500A1D99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DBAEA5E2507742500A1D99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DBAEA602507742500A1D99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2V2B8J8T6V;
+				INFOPLIST_FILE = "BlurEffectDemo-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zy.BlurEffectDemo-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/BlurEffectDemo-Swift/BlurEffectDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DBAEA612507742500A1D99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2V2B8J8T6V;
+				INFOPLIST_FILE = "BlurEffectDemo-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zy.BlurEffectDemo-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/BlurEffectDemo-Swift/BlurEffectDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DBAEA462507742300A1D99F /* Build configuration list for PBXProject "BlurEffectDemo-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBAEA5D2507742500A1D99F /* Debug */,
+				2DBAEA5E2507742500A1D99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DBAEA5F2507742500A1D99F /* Build configuration list for PBXNativeTarget "BlurEffectDemo-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBAEA602507742500A1D99F /* Debug */,
+				2DBAEA612507742500A1D99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DBAEA432507742300A1D99F /* Project object */;
+}
